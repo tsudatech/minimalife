@@ -27,9 +27,6 @@ body {
 
 .row {
   width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*=============================================================
@@ -39,10 +36,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-}
-
-.top-row {
   height:100vh;
 }
 
@@ -50,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height:100vh;
 }
 
 .minimamental, .minimalife {
@@ -67,6 +60,10 @@ body {
 /*=============================================================
 学べる事
 ==============================================================*/
+.wtl-parent {
+  height:100vh;
+}
+
 .lesson-title-container {
   margin-bottom : 50px;
 }
@@ -75,10 +72,6 @@ body {
   width:100%;
   text-align: center;
   font-size: 23px;
-}
-
-.wtl-parent {
-  height:100vh;
 }
 
 .wtl * {
