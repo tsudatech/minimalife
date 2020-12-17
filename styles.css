@@ -78,6 +78,12 @@ body {
   margin:20px;
 }
 
+.wtl-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wtl-img-img {
   max-width: 100%;
 }
