@@ -85,6 +85,10 @@ body {
   margin:20px;
 }
 
+.wtl {
+  margin-bottom:30px;
+}
+
 .wtl-row {
   display: flex;
   justify-content: center;
