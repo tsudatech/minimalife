@@ -60,8 +60,15 @@ body {
 /*=============================================================
 学べる事
 ==============================================================*/
-.wtl-parent {
-  height:100vh;
+@media screen and (min-width: 768px) {
+  .wtl-parent {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wtl-container {
+    margin: 100px;
+  }
 }
 
 .lesson-title-container {
@@ -84,6 +91,12 @@ body {
   align-items: center;
 }
 
+.wtl-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wtl-img-img {
   max-width: 100%;
 }
@@ -95,6 +108,7 @@ body {
 
 .wtl-text {
   word-wrap: break-word;
+  text-align: center;
 }
 
 /*=============================================================
