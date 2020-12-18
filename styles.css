@@ -60,12 +60,11 @@ body {
 /*=============================================================
 学べる事
 ==============================================================*/
-@media screen and (min-width: 768px) {
-  .wtl-parent {
-    height: 100vh;
-  }
+.wtl-parent {
+  min-height: 100vh;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 990px) {
   .wtl-container {
     margin: 100px;
   }
@@ -86,7 +85,7 @@ body {
 }
 
 .wtl {
-  margin-bottom:30px;
+  margin-bottom:100px;
 }
 
 .wtl-row {
@@ -119,12 +118,17 @@ body {
 紹介文
 ==============================================================*/
 .intro-container {
-  height: 50vh;
   width: 60vw !important;
   background-image: url("assets/photo1518655048521F130df041f66.png");
   background-size: 100%;
   bottom:0px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .intro-container {
+    width: 100vw !important;
+  }
 }
 
 .intro-row {
@@ -142,8 +146,15 @@ body {
   background:rgba(0,0,0,0);
 }
 
+@media screen and (max-width: 990px) {
+  .intro-text {
+    margin-left: 0px !important;
+  }
+}
+
 .intro-text-button-wrapper {
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
