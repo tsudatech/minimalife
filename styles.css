@@ -167,7 +167,7 @@ body {
 /*=============================================================
 フォントサイズ
 ==============================================================*/
-@media screen and (orientation: portfolio) {
+@media screen and (orientation: portrait) {
   @media screen and (min-width: 1200px) {
     .intro-text {
       font-size: 1.2vh !important;
