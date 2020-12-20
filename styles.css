@@ -170,7 +170,7 @@ body {
 @media screen and (orientation: portrait) {
   @media screen and (min-width: 1200px) {
     .intro-text {
-      font-size: 1.5vh !important;
+      font-size: 1.7vh !important;
     }
     .wtl-title {
       font-size: 2vh !important;
@@ -181,7 +181,7 @@ body {
   }
   @media screen and (min-width: 992px) {
     .intro-text {
-      font-size: 1.5vh !important;
+      font-size: 1.7vh !important;
     }
     .wtl-title {
       font-size: 2vh !important;
@@ -192,7 +192,7 @@ body {
   }
   @media screen and (min-width: 768px) {
     .intro-text {
-      font-size: 1.5vh !important;
+      font-size: 1.7vh !important;
     }
     .wtl-title {
       font-size: 2vh !important;
@@ -203,7 +203,7 @@ body {
   }
   @media screen and (min-width: 576px) {
     .intro-text {
-      font-size: 1.5vh !important;
+      font-size: 1.7vh !important;
     }
     .wtl-title {
       font-size: 2vh !important;
@@ -214,7 +214,7 @@ body {
   }
   @media screen and (max-width: 575px) {
     .intro-text {
-      font-size: 1.5vh !important;
+      font-size: 1.7vh !important;
     }
     .wtl-title {
       font-size: 2vh !important;
@@ -228,46 +228,46 @@ body {
 @media screen and (orientation: landscape) {
   @media screen and (min-width: 1200px) {
     .intro-text {
-      font-size: 1.2vw !important;
+      font-size: 2vw !important;
     }
     .wtl-title {
-      font-size: 1.5vw !important;
+      font-size: 2.5vw !important;
     }
     .lesson-title {
-      font-size: 2vw !important;
+      font-size: 3vw !important;
     }
   }
   @media screen and (min-width: 992px) {
     .intro-text {
-      font-size: 1.2vw !important;
+      font-size: 2vw !important;
     }
     .wtl-title {
-      font-size: 1.5vw !important;
+      font-size: 2.5vw !important;
     }
     .lesson-title {
-      font-size: 2vw !important;
+      font-size: 3vw !important;
     }
   }
   @media screen and (min-width: 768px) {
     .intro-text {
-      font-size: 1.2vw !important;
+      font-size: 2vw !important;
     }
     .wtl-title {
-      font-size: 1.5vw !important;
+      font-size: 2.5vw !important;
     }
     .lesson-title {
-      font-size: 2vw !important;
+      font-size: 3vw !important;
     }
   }
   @media screen and (min-width: 576px) {
     .intro-text {
-      font-size: 1.2vw !important;
+      font-size: 2vw !important;
     }
     .wtl-title {
-      font-size: 1.5vw !important;
+      font-size: 2.5vw !important;
     }
     .lesson-title {
-      font-size: 2vw !important;
+      font-size: 3vw !important;
     }
   }
   @media screen and (max-width: 575px) {
