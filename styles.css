@@ -170,57 +170,57 @@ body {
 @media screen and (orientation: portrait) {
   @media screen and (min-width: 1200px) {
     .intro-text {
-      font-size: 1.2vh !important;
-    }
-    .wtl-title {
       font-size: 1.5vh !important;
     }
-    .lesson-title {
+    .wtl-title {
       font-size: 2vh !important;
+    }
+    .lesson-title {
+      font-size: 3vh !important;
     }
   }
   @media screen and (min-width: 992px) {
     .intro-text {
-      font-size: 1.2vh !important;
-    }
-    .wtl-title {
       font-size: 1.5vh !important;
     }
-    .lesson-title {
+    .wtl-title {
       font-size: 2vh !important;
+    }
+    .lesson-title {
+      font-size: 3vh !important;
     }
   }
   @media screen and (min-width: 768px) {
     .intro-text {
-      font-size: 1.2vh !important;
-    }
-    .wtl-title {
       font-size: 1.5vh !important;
     }
-    .lesson-title {
+    .wtl-title {
       font-size: 2vh !important;
+    }
+    .lesson-title {
+      font-size: 3vh !important;
     }
   }
   @media screen and (min-width: 576px) {
     .intro-text {
-      font-size: 1.2vh !important;
-    }
-    .wtl-title {
       font-size: 1.5vh !important;
     }
-    .lesson-title {
+    .wtl-title {
       font-size: 2vh !important;
+    }
+    .lesson-title {
+      font-size: 3vh !important;
     }
   }
   @media screen and (max-width: 575px) {
     .intro-text {
-      font-size: 1.2vh !important;
-    }
-    .wtl-title {
       font-size: 1.5vh !important;
     }
-    .lesson-title {
+    .wtl-title {
       font-size: 2vh !important;
+    }
+    .lesson-title {
+      font-size: 3vh !important;
     }
   }
 }
