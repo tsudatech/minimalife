@@ -112,6 +112,7 @@ body {
 .wtl-text {
   word-wrap: break-word;
   text-align: center;
+  font-size: 1vh !important;
 }
 
 /*=============================================================
