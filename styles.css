@@ -8,8 +8,11 @@ html {
 
 body * {
   font-family: dnp-shuei-gothic-gin-std, YuGothic, Yu Gothic, Hiragino Sans, Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
-  /* font-weight: 100; */
-  /* font-style: normal; */
+  font-weight: 100;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  color: #333;
 }
 
 body {
@@ -112,12 +115,6 @@ body {
 .wtl-text {
   word-wrap: break-word;
   text-align: center;
-}
-
-address, blockquote, caption, cite, code, dd, dt, em, h1, h2, h3, h4, h5, h6, input, li, p, pre, select, small, strong, td, textarea, th, div {
-  font-size: 100%;
-  font-weight: inherit;
-  font-style: inherit;
 }
 
 /*=============================================================
